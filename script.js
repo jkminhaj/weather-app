@@ -34,7 +34,7 @@ function main(){
         windSpeed.innerText=data.wind_speed;
         const humidity = document.getElementById('humidity');
         humidity.innerText = data.humidity;
-        console.log(data);
+        // console.log(data);
 
     }
 }
